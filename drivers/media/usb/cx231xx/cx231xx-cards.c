@@ -1015,6 +1015,9 @@ struct usb_device_id cx231xx_id_table[] = {
 	/* AverMedia DVD EZMaker 7 */
 	{USB_DEVICE(0x07ca, 0xc039),
 	 .driver_info = CX231XX_BOARD_CNXT_VIDEO_GRABBER},
+    /* AverMedia AVerTV Volar GO */
+    {USB_DEVICE(0x07ca, 0x0833),
+	 .driver_info = CX231XX_BOARD_CNXT_VIDEO_GRABBER},
 	{USB_DEVICE(0x2040, 0xb110),
 	 .driver_info = CX231XX_BOARD_HAUPPAUGE_USB2_FM_PAL},
 	{USB_DEVICE(0x2040, 0xb111),
